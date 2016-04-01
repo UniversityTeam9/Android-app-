@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">CarInterface</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_bluetooht">Bluetooht</string>
+    <string name="title_activity_app_control">AppControl</string>
+</resources>

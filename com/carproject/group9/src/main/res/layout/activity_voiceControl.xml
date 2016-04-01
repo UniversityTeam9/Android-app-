@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    android:layout_width="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Press start and speak"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:padding="15dp"
+        android:textColor="Black"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/bStart"
+        android:text="Start"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+    <Button
+        android:id="@+id/bStop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Stop" />
+
+
+</LinearLayout>

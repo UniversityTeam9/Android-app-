@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:padding="25dp"
+    android:layout_width="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="SmartCar"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:padding="15dp"
+        android:textColor="Black"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/bMoveForwards"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Forward"
+        android:padding="20dp"/>
+
+    <Button
+        android:id="@+id/bMoveLeft"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Left   "
+        android:padding="20dp"/>
+
+    <Button
+        android:id="@+id/bMoveRight"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Right  "
+        android:padding="20dp"/>
+
+    <Button
+        android:id="@+id/bStop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Stop"
+        android:padding="20dp"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Speed"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:padding="15dp"
+        android:textColor="Black"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/bMoreVelo"
+        android:text="+ Increment +"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"/>
+
+    <Button
+        android:id="@+id/bLessVelo"
+        android:text="- Decrement -"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"/>
+
+
+
+
+
+</LinearLayout>
